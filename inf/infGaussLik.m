@@ -1,4 +1,4 @@
-function [post nlZ dnlZ] = infGaussLik(hyp, mean, cov, lik, x, y, opt)
+function [post, nlZ, dnlZ] = infGaussLik(hyp, mean, cov, lik, x, y, opt)
 
 % Exact inference for a GP with Gaussian likelihood.
 %
